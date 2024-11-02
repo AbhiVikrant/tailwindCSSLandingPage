@@ -6,22 +6,22 @@ const Body = () => {
           <img
             src="./assets/Blue-Shape.svg"
             alt="1st"
-            className="-rotate-[45deg] h-64  md:h-72 lg:h-[380px]"
+            className="-rotate-[45deg] h-64  md:h-72 lg:h-[289px]"
           />
           <img
             src="./assets/Pink-Shape.svg"
             alt="2nt"
-            className="absolute -rotate-[30deg] h-64  md:h-72 lg:h-[380px]"
+            className="absolute -rotate-[30deg] h-64  md:h-72 lg:h-[289px]"
           />
           <img
             src="./assets/Purple-Shape.svg"
             alt="3rd"
-            className="absolute -rotate-[15deg] h-64  md:h-72 lg:h-[380px]"
+            className="absolute -rotate-[15deg] h-64  md:h-72 lg:h-[289px]"
           />
           <img
             src="./assets/Hero-Model.png"
             alt="4th"
-            className="absolute h-64 md:h-72 lg:h-[380px]"
+            className="absolute h-64 md:h-72 lg:h-[289px]"
           />
         </div>
         <div className="lg:flex-1 lg:order-1 lg:justify-start lg:space-y-10 lg:overflow-hidden">
