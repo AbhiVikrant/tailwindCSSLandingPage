@@ -1,7 +1,7 @@
 const Body = () => {
   return (
     <>
-      <div className="">
+      <div className="space-y-8">
         <div className="flex justify-center items-center ">
           <img
             src="./assets/Blue-Shape.svg"
