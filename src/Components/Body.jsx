@@ -1,9 +1,7 @@
-import React from "react";
-
 const Body = () => {
   return (
     <>
-      <div className="space-y-8">
+      <div className="">
         <div className="flex justify-center items-center ">
           <img
             src="./assets/Blue-Shape.svg"
