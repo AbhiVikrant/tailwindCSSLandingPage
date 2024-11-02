@@ -1,27 +1,27 @@
 const Body = () => {
   return (
     <>
-      <div className="space-y-8">
-        <div className="flex justify-center items-center ">
+      <div className="space-y-4">
+        <div className="flex justify-center items-center  ">
           <img
             src="./assets/Blue-Shape.svg"
             alt="1st"
-            className="-rotate-[45deg] h-64"
+            className="-rotate-[45deg] h-64  md:h-72"
           />
           <img
             src="./assets/Pink-Shape.svg"
             alt="2nt"
-            className="absolute -rotate-[30deg] h-64"
+            className="absolute -rotate-[30deg] h-64  md:h-72"
           />
           <img
             src="./assets/Purple-Shape.svg"
             alt="3rd"
-            className="absolute -rotate-[15deg] h-64"
+            className="absolute -rotate-[15deg] h-64  md:h-72"
           />
           <img
             src="./assets/Hero-Model.png"
             alt="4th"
-            className="absolute h-64 "
+            className="absolute h-64 md:h-72 "
           />
         </div>
         <div>
@@ -33,13 +33,13 @@ const Body = () => {
             comparitive lesser price and in easy steps with fast and secure
             server.
           </p>
-          <form className=" flex flex-col gap-6 m-4" action="">
+          <form className=" flex flex-col gap-6 m-4 md:flex-row" action="">
             <input
               className=" rounded-md p-2 placeholder:text-grey-400"
               type="email"
               placeholder="Enter your email address"
             />
-            <button className=" rounded-2xl text-xl text-white bg-blue-500 shadow-lg shadow-blue-500/50  font-lato hover:bg-blue-200">
+            <button className=" rounded-md  text-md text-white bg-blue-500 shadow-lg shadow-blue-500/50  font-lato hover:bg-blue-200 p-2">
               Join waitlist
             </button>
           </form>
